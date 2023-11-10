@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background: url(Images/BGSG.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: rgba(106, 177, 213, 0.47);
+    margin: -8px;
+}
+ .recherche a {
+    text-decoration: none;
+}
+.recherche {
+    padding: 0%;
+    margin: -8px;
+}
+
+.recherche img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.recherche ul {
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 5px;
+}
+
+.recherche img {
+    width: 100px;
+}
+
+.recherche input {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(106, 178, 213);
+    text-shadow: 3px 4px 7px rgb(32, 85, 112);
+    }
+
+h3 {
+    color: rgb(106, 178, 213);
+}
+
+.biographie ul {
+    background-color: #ffffffda;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.lien ul{
+    list-style: none;
+    display: grid;
+    grid-gap: 10px;
+    padding: 0%;
+    margin: 5px;
+}
+
+.lien li {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 0px 50px 0px 0px;
+    background-color: #ffffffda;
+    border-radius: 30px;
+}
+
+.lien li:hover {
+    background-color: rgb(106, 178, 213);
+    border-radius: 30px;
+}
+
+.lien a {
+    text-decoration: none;
+
+}
+
+.lien img {
+    width: 100%;
+}
+
+.liens ul{
+    list-style: none;
+    display: grid;
+    grid-gap: 15px;
+}
+
+.liens li {
+    display: grid;
+    grid-template-columns: 5% 50%;
+    grid-gap: 15px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: #ffffffda;
+    border-radius: 30px;
+}
+
+
+.liens a {
+    text-decoration: none;
+
+}
+
+.liens img {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.reseau img {
+   width: 30px;
+   margin-top: 5px;
+}
+
+.films ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 19rem);
+    justify-content: space-evenly;
+    grid-gap: 15px;
+    padding: 0%;
+}
+
+.films li {
+    display: grid;
+}
+
+.films img {
+    width: 19rem;
+    border-radius: 20px;
+}
+
+.films figcaption {
+    color: rgb(106, 178, 213);
+    background-color: rgb(0, 28, 53);
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.films figcaption:hover {
+    background-color: rgb(106, 178, 213);
+    color: white;
+}
+
+.films a{
+    color: rgb(106, 178, 213);
+    text-decoration: none;
+}
+
+.films a:hover {
+    color: #fff;
+}
+
+.films p {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 19rem;
+    max-height: 200px;
+    overflow: scroll ;
+}
+
+.event-calendar {
+    
+    margin: 0 auto;
+}
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+   display: grid; 
+   grid-template-columns: repeat(auto-fill, 19rem);
+   grid-gap: 10px;
+   justify-content: space-around;
+   align-items: center;
+  }
+  
+  .event {
+    width: 19rem;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+
+  }
+  
+  .event-date {
+    font-weight: bold;
+    color: #0074a2;
+  }
+  
+  .event-title {
+    margin-top: 5px;
+  }
+
+.formulaire {
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.kikiimg {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.img1 {
+    transform: scaleX(-1);
+}
+
+.formulaire img {
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+form {
+    display: grid;
+    grid-gap: 5px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+  
+input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 8px;
+    resize: none;
+}
+
+#btn:hover {
+    background-color: #ffffffba;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 530px) {
+    .biographie ul {
+        width: 90%;
+        margin: auto;
+    }
+
+    .lien ul{
+        padding: 0%;
+    }
+    
+    .lien li {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 90%);
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 50px 0px 0px;
+        background-color: #ffffffda;
+        border-radius: 30px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .lien img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .films ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 19rem);
+        justify-content: space-evenly;
+        grid-gap: 15px;
+        padding: 0%;
+    }
+}
